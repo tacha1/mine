@@ -1,0 +1,110 @@
+
+body{
+	color: #0000;
+	font-family: verdana;
+	font-size: 16px;
+	background:url(desert.jpg);
+	margin:0 auto;
+}
+
+header{
+	padding: 20px;
+	background: rgba(0,0,0,0.4);
+}
+header h1{
+	color:#ffff;
+	text-align:center;
+}
+#menu { 
+	text-align:center;
+}
+#menu ul{
+	list-style-type:none;
+}
+#menu ul li{
+	border:1px solid #00FF33;
+	display: inline-block;
+	margin-right:10px;}
+
+#menu ul li a{
+	display:inline-block;
+	padding:5px 10px;
+	text-decoration:none;
+	font-size:16px;
+	font-weight:bold;
+}
+#menu ul li a:hover{
+	background:#00FFFF;
+	color:#3399FF;
+	transition: 1s;
+	border-bottom:5px solid medium;
+	}
+#content{
+	width:990px;
+	height:auto;
+	margin:0 auto;
+	padding:0px;
+	overflow:hidden;
+	clear:both;
+	border:px solid #996633;
+}
+.box{
+	float:left;
+	width:180px;
+	height:auto;
+	margin-right:60px;
+	border:px solid #993300;
+	color:#FFFFFF;
+}
+.box img{
+	width:160px;
+	height:160px;
+}
+#shipping{
+	width:500px;
+	height:200px;
+	margin:0 auto;
+	padding:0px;
+	margin-top:30px;
+	background:rgba(0,0,0,0.4);
+	border-radius:7px;
+    color:#FFF;
+}
+#form{
+    width: 400px;
+    height: auto;
+    border: 0px solid #000;
+    margin: 0 auto;
+    padding: 0px;
+    margin-top: 10px;
+}
+#form .select{
+    width: 300px;
+    height: 35px;
+    background: none;
+    border-radius: 7px;
+    border: 1px solid #FFF;
+}
+.btn{
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius:10px;
+    background: yellow;
+    color:#FFF;
+    margin-top: 30px;
+}
+.btn:hover{
+   background: none;
+    border: 1px solid #FFF;
+}
+#form input[type='text']{
+    width: 150px;
+    height: 45px;
+    background: none;
+    border: 1px solid #FFF;
+    border-radius: 7px;
+    padding-left: 5px;
+    color: #FFF;
+    font-weight: bold;
+}

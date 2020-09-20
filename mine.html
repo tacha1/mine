@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<link rel="stylesheet" type="text/css" href="mine.css">
+</head>
+<body>
+<header>
+<h1> watch shop online</h1>
+</header>
+<div id="menu">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+<div id="content">
+
+	<div class="box">
+	<img src="w5.png">
+	<input name="chk[]" type="checkbox" id="sec" value="2000"></br>
+	Title:</br>
+	Price:</br>
+	</div>
+	
+	<div class="box">
+	<img src="w3.jpg">
+	<input name="chk[]" type="checkbox" id="sec" value="3000"></br>
+	Title:</br>
+	Price:</br>
+	</div>
+	
+	<div class="box">
+	<img src="w2.jpg">
+	<input name="chk[]" type="checkbox" id="sec" value="5000"></br>
+	Title:</br>
+	Price:</br>
+	</div>
+	
+	<div class="box">
+	<img src="w4.jpeg">
+	<input name="chk[]" type="checkbox" id="sec" value="4000"></br>
+	Title:</br>
+	Price:</br>
+	</div>
+</div> 
+
+<div id="shipping">
+<div id="form">
+<label>District</label>
+    <select class="select" id="select">
+        <option selected disabled>Select your Location</option>
+        <option value="500">kigali</option>
+        <option value="7000">kibuye</option>
+        <option value="5000">huye</option>
+    </select>
+    <input type="submit" name="submit" value="Calculate Total COST" class="btn" onClick="return validate();">
+    <input type="text" name="" value="" id="res">
+    </div>
+    
+</div>
+</body>
+</html>
